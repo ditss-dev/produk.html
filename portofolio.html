@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio - Ditss Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #eef4ff;
+      color: #1e3a8a;
+    }
+    header {
+      background-color: #1e40af;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #1d4ed8;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .item {
+      background: white;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .item:hover {
+      transform: translateY(-5px);
+    }
+    .item img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .item .desc {
+      padding: 15px;
+    }
+    .item .desc h3 {
+      margin: 0 0 10px;
+    }
+    footer {
+      background-color: #1e40af;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ditss Store</h1>
+    <p>Portofolio Proyek & Layanan</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="produk.html">Produk</a>
+    <a href="tentang.html">Tentang</a>
+    <a href="kontak.html">Kontak</a>
+    <a href="cara-order.html">Cara Order</a>
+    <a href="testimoni.html">Testimoni</a>
+    <a href="faq.html">FAQ</a>
+    <a href="promo.html">Promo</a>
+    <a href="harga.html">Harga</a>
+    <a href="order.html">Order</a>
+    <a href="blog.html">Blog</a>
+    <a href="portofolio.html">Portofolio</a>
+  </nav>
+
+  <div class="container">
+    <div class="portfolio-grid">
+      <div class="item">
+        <img src="https://via.placeholder.com/400x200.png?text=Panel+Pterodactyl" alt="Panel">
+        <div class="desc">
+          <h3>Panel Pterodactyl</h3>
+          <p>Panel custom untuk bot & game server. Tampilan profesional dan responsive.</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="https://via.placeholder.com/400x200.png?text=VPS+Hosting+Setup" alt="VPS">
+        <div class="desc">
+          <h3>VPS Hosting</h3>
+          <p>Setup VPS untuk bot WhatsApp, web server, dan project lainnya.</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="https://via.placeholder.com/400x200.png?text=Fix+Script+Bot" alt="Fix Bot">
+        <div class="desc">
+          <h3>Fix & Add Fitur Bot</h3>
+          <p>Perbaikan bug dan penambahan fitur di bot WhatsApp .</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="https://via.placeholder.com/400x200.png?text=Jualan+Nokos" alt="Nokos">
+        <div class="desc">
+          <h3>Jualan Nokos Indo</h3>
+          <p>Nokos ready stok dan langsung bisa digunakan, harga mulai 4k.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Ditss Store. Powered by Asuma Multi Device.
+  </footer>
+
+</body>
+</html>
