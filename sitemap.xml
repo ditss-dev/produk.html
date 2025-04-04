@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Beranda & Info -->
+  <url><loc>https://namadomainkamu.com/</loc></url>
+  <url><loc>https://namadomainkamu.com/tentang.html</loc></url>
+  <url><loc>https://namadomainkamu.com/kontak.html</loc></url>
+  <url><loc>https://namadomainkamu.com/faq.html</loc></url>
+  <url><loc>https://namadomainkamu.com/syarat-ketentuan.html</loc></url>
+  <url><loc>https://namadomainkamu.com/kebijakan-privasi.html</loc></url>
+
+  <!-- Layanan -->
+  <url><loc>https://namadomainkamu.com/layanan/panel.html</loc></url>
+  <url><loc>https://namadomainkamu.com/layanan/vps-hosting.html</loc></url>
+  <url><loc>https://namadomainkamu.com/layanan/pulsa-kuota.html</loc></url>
+  <url><loc>https://namadomainkamu.com/layanan/nokos.html</loc></url>
+  <url><loc>https://namadomainkamu.com/layanan/jasa-edit-bot.html</loc></url>
+  <url><loc>https://namadomainkamu.com/layanan/jasa-tambahan.html</loc></url>
+  <url><loc>https://namadomainkamu.com/layanan/donasi.html</loc></url>
+
+  <!-- Fitur -->
+  <url><loc>https://namadomainkamu.com/fitur/fitur-bot.html</loc></url>
+  <url><loc>https://namadomainkamu.com/fitur/fitur-game.html</loc></url>
+  <url><loc>https://namadomainkamu.com/fitur/fitur-ai.html</loc></url>
+  <url><loc>https://namadomainkamu.com/fitur/fitur-pendidikan.html</loc></url>
+  <url><loc>https://namadomainkamu.com/fitur/fitur-store.html</loc></url>
+
+  <!-- Tools -->
+  <url><loc>https://namadomainkamu.com/tools/tools.html</loc></url>
+  <url><loc>https://namadomainkamu.com/tools/cek-operator.html</loc></url>
+  <url><loc>https://namadomainkamu.com/tools/test-speed.html</loc></url>
+
+  <!-- Tutorial -->
+  <url><loc>https://namadomainkamu.com/tutorial/tutorial.html</loc></url>
+  <url><loc>https://namadomainkamu.com/tutorial/video-tutorial.html</loc></url>
+
+  <!-- Promo & Event -->
+  <url><loc>https://namadomainkamu.com/promo/event.html</loc></url>
+  <url><loc>https://namadomainkamu.com/promo/diskon.html</loc></url>
+  <url><loc>https://namadomainkamu.com/promo/testimoni.html</loc></url>
+
+  <!-- Rahasia & Developer -->
+  <url><loc>https://namadomainkamu.com/rahasia/kamar-x.html</loc></url>
+  <url><loc>https://namadomainkamu.com/rahasia/level-next.html</loc></url>
+  <url><loc>https://namadomainkamu.com/dev/developer-zone.html</loc></url>
+
+  <!-- Credits -->
+  <url><loc>https://namadomainkamu.com/credits.html</loc></url>
+
+</urlset>
