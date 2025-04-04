@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tutorial Video - Ditss Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f0f8ff;
+      color: #1e3a8a;
+    }
+    header, footer {
+      background-color: #1e40af;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    nav {
+      background-color: #2563eb;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h2 {
+      border-left: 5px solid #2563eb;
+      padding-left: 10px;
+      margin-bottom: 30px;
+    }
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+    .video-item {
+      background: white;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .video-item iframe {
+      width: 100%;
+      height: 200px;
+      border: none;
+      border-radius: 8px;
+    }
+    .video-item h4 {
+      margin-top: 15px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Tutorial Video</h1>
+  <p>Belajar cara menggunakan layanan Ditss Store lewat video singkat.</p>
+</header>
+
+<nav>
+  <a href="index.html">Beranda</a>
+  <a href="produk.html">Produk</a>
+  <a href="test-speed.html">Test Speed</a>
+  <a href="tutorial-video.html">Tutorial Video</a>
+</nav>
+
+<div class="container">
+  <h2>Video Panduan</h2>
+  <div class="video-grid">
+    <div class="video-item">
+      <iframe src="https://www.youtube.com/embed/JHmeP0HzVJg" allowfullscreen></iframe>
+      <h4>Cara Order Layanan di Ditss Store</h4>
+    </div>
+    <div class="video-item">
+      <iframe src="https://www.youtube.com/embed/TaOjJ0r6mbA" allowfullscreen></iframe>
+      <h4>Cara Topup & Bayar Otomatis</h4>
+    </div>
+    <div class="video-item">
+      <iframe src="https://www.youtube.com/embed/DPplwGUEtSk" allowfullscreen></iframe>
+      <h4>Setting Panel Pterodactyl</h4>
+    </div>
+    <div class="video-item">
+      <iframe src="https://www.youtube.com/embed/ogRjtvIuJ4E" allowfullscreen></iframe>
+      <h4>Setup VPS Hosting</h4>
+    </div>
+  </div>
+</div>
+
+<footer>
+  &copy; 2025 Ditss Store - Edukasi pelanggan agar makin mandiri dan paham teknologi.
+</footer>
+
+</body>
+</html>
