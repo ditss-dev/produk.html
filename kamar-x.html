@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kamar X - Ditss Store</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #0f0;
+      font-family: 'Courier New', monospace;
+      margin: 0;
+      padding: 40px;
+      overflow: hidden;
+    }
+    .terminal {
+      white-space: pre-wrap;
+      font-size: 1.2em;
+      animation: blinkCursor 1s step-start infinite;
+    }
+    @keyframes blinkCursor {
+      50% { border-right: 2px solid transparent; }
+      100% { border-right: 2px solid #0f0; }
+    }
+    .glitch {
+      color: #0f0;
+      animation: glitch 1s infinite;
+    }
+    @keyframes glitch {
+      0% { text-shadow: 2px 0 red; }
+      50% { text-shadow: -2px 0 blue; }
+      100% { text-shadow: 2px 0 red; }
+    }
+    .secret-box {
+      border: 2px dashed #0f0;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="terminal" id="terminal-output">
+  > Mengakses Kamar X...
+</div>
+
+<script>
+  const lines = [
+    "> Mengakses Kamar X...",
+    "> Koneksi berhasil.",
+    "> Selamat datang, Agent 048.",
+    "> Misi hari ini: Temukan diskon tersembunyi.",
+    "",
+    "Kode Diskon: R4H4S14-X25",
+    "",
+    "[*] Pesan dari Founder:",
+    "“Jika kamu bisa membaca ini, kamu sudah selangkah lebih dekat dari yang lain.”",
+    "",
+    "Buka: https://ditss.store/level-next.html (hanya bisa dibuka oleh yang tahu)"
+  ];
+
+  let i = 0;
+  const output = document.getElementById('terminal-output');
+
+  function typeLine() {
+    if (i < lines.length) {
+      output.innerHTML += `\n${lines[i]}`;
+      i++;
+      setTimeout(typeLine, 500);
+    }
+  }
+
+  setTimeout(typeLine, 1000);
+</script>
+
+</body>
+</html>
