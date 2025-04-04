@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Produk - Ditss Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #f0f4ff;
+      color: #1e3a8a;
+    }
+    header {
+      background-color: #1e40af;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #1d4ed8;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #1e40af;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ditss Store</h1>
+    <p>Layanan Digital Lengkap dan Murah</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="produk.html">Produk</a>
+    <a href="tentang.html">Tentang</a>
+    <a href="kontak.html">Kontak</a>
+  </nav>
+
+  <div class="products">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1567427017947-545c5f8d16ad" alt="Pulsa">
+      <h3>Pulsa Murah</h3>
+      <p>Mulai dari 7.000 untuk semua operator!</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1621801401915-4f2e6a2c9d2a" alt="VPS">
+      <h3>VPS Hosting</h3>
+      <p>Stabil dan cepat untuk berbagai kebutuhan hosting kamu.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1581093588401-25f8d0a69616" alt="Edit Script Bot">
+      <h3>Edit Script Bot</h3>
+      <p>Butuh bantuan edit bot? Serahkan ke kami.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1633498929761-fec404d54d83" alt="Fix Error">
+      <h3>Fix Error</h3>
+      <p>Bot error? Kami bantu bereskan sampai tuntas.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1596495577886-d920f1fb7238" alt="Panel Pterodactyl">
+      <h3>Panel Pterodactyl</h3>
+      <p>Jual panel premium dengan harga bersahabat.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1616587893739-dcf6e95094c2" alt="Nomor Kosong">
+      <h3>Nomor Kosong (Nokos)</h3>
+      <p>Nomor verifikasi siap pakai kapan pun kamu butuh.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Ditss Store - All rights reserved.
+  </footer>
+
+</body>
+</html>
